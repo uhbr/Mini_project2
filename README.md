@@ -8,7 +8,7 @@ Hi! This is my project :)
 ## Project Structure
   Main.py: The Python script that contains the logic to read the trial data, process the ECoG signal, and compute the mean ERP for each finger.
   mini_project_2_data: Folder containing the required data files.
-  events_file_ordered.csv: CSV file containing the trial information (start time, peak time, and finger identifier).
+  events_file_ordered.csv: CSV file containing the trial information (start time, peak time, and finger identifier). All data in this file is float or int.
   brain_data_channel_one.csv: CSV file containing the ECoG signal data.
 
 ## Dependencies
@@ -20,6 +20,12 @@ Hi! This is my project :)
   ### You can install the necessary dependencies using pip:
   
     pip install pandas numpy
+    
+  Use python 3.8+
+  ### If you'd like to plot the results:
+  1. Install matplotlib
+           pip install matplotlib
+  2. Remove the # from lines 3 and 52-59
 
 ## Description of the Functionality
   Function: calc_mean_erp(trial_points, ecog_data)
