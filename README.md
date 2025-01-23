@@ -24,7 +24,7 @@ Hi! This is my project :)
   Use python 3.8+
   ### If you'd like to plot the results:
   1. Install matplotlib:
-     2.      pip install matplotlib
+         pip install matplotlib
   3. Remove the # from lines 3 and 52-59
 
 ## Description of the Functionality
